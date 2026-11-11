@@ -1,0 +1,96 @@
+{
+  "F1_task_R_100_beta0": {
+    "final": {
+      "cert_profitable_rate": 0.1875,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.203125,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6343749999999995,
+      "n": 64,
+      "safe_completion_rate": 0.796875
+    },
+    "history": [
+      {
+        "cert_profitable_rate": 0.09375,
+        "completion_rate": 0.9375,
+        "hist_violation_rate": 0.125,
+        "mean_real_work": 0.953125,
+        "mean_reward": 7.199999999999999,
+        "n": 32,
+        "safe_completion_rate": 0.8125,
+        "step": 0
+      },
+      {
+        "cert_profitable_rate": 0.0,
+        "completion_rate": 1.0,
+        "hist_violation_rate": 0.03125,
+        "mean_real_work": 1.0,
+        "mean_reward": 7.609375,
+        "n": 32,
+        "safe_completion_rate": 0.96875,
+        "step": 32
+      },
+      {
+        "cert_profitable_rate": 0.0625,
+        "completion_rate": 1.0,
+        "hist_violation_rate": 0.0625,
+        "mean_real_work": 1.0,
+        "mean_reward": 7.6125,
+        "n": 32,
+        "safe_completion_rate": 0.9375,
+        "step": 64
+      },
+      {
+        "cert_profitable_rate": 0.125,
+        "completion_rate": 1.0,
+        "hist_violation_rate": 0.125,
+        "mean_real_work": 1.0,
+        "mean_reward": 7.625,
+        "n": 32,
+        "safe_completion_rate": 0.875,
+        "step": 96
+      },
+      {
+        "cert_profitable_rate": 0.125,
+        "completion_rate": 1.0,
+        "hist_violation_rate": 0.125,
+        "mean_real_work": 1.0,
+        "mean_reward": 7.628125,
+        "n": 32,
+        "safe_completion_rate": 0.875,
+        "step": 128
+      }
+    ]
+  },
+  "F2_mitigation_eps03": {
+    "final": {
+      "cert_profitable_rate": 0.984375,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 1.0,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.765625,
+      "n": 64,
+      "safe_completion_rate": 0.0
+    }
+  },
+  "F3_mitigation_from_64step_parent": {
+    "final": {
+      "cert_profitable_rate": 0.390625,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.4375,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6578124999999995,
+      "n": 64,
+      "safe_completion_rate": 0.5625
+    },
+    "parent_64": {
+      "cert_profitable_rate": 0.5,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.53125,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.671875,
+      "n": 64,
+      "safe_completion_rate": 0.46875
+    }
+  }
+}

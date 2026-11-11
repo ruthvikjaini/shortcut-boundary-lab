@@ -1,0 +1,141 @@
+{
+  "E1_lambda_ablation": {
+    "0.05": {
+      "cert_profitable_rate": 0.40625,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.46875,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6578124999999995,
+      "n": 64,
+      "safe_completion_rate": 0.53125
+    },
+    "0.1": {
+      "cert_profitable_rate": 0.28125,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.328125,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6421875,
+      "n": 64,
+      "safe_completion_rate": 0.671875
+    },
+    "0.2": {
+      "cert_profitable_rate": 0.1875,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.203125,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.632812499999999,
+      "n": 64,
+      "safe_completion_rate": 0.796875
+    },
+    "0.3": {
+      "cert_profitable_rate": 0.15625,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.171875,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6296875,
+      "n": 64,
+      "safe_completion_rate": 0.828125
+    },
+    "0.6": {
+      "cert_profitable_rate": 0.15625,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.171875,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6296875,
+      "n": 64,
+      "safe_completion_rate": 0.828125
+    },
+    "1.0": {
+      "cert_profitable_rate": 0.125,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.125,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.625,
+      "n": 64,
+      "safe_completion_rate": 0.875
+    }
+  },
+  "E2_mixture_curve": {
+    "0.0": {
+      "cert_profitable_rate": 0.546875,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.59375,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6765625,
+      "n": 64,
+      "safe_completion_rate": 0.40625
+    },
+    "0.05": {
+      "cert_profitable_rate": 0.59375,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.65625,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6859375,
+      "n": 64,
+      "safe_completion_rate": 0.34375
+    },
+    "0.1": {
+      "cert_profitable_rate": 0.59375,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.65625,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.684374999999999,
+      "n": 64,
+      "safe_completion_rate": 0.34375
+    },
+    "0.25": {
+      "cert_profitable_rate": 0.5,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.53125,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.671875,
+      "n": 64,
+      "safe_completion_rate": 0.46875
+    },
+    "0.5": {
+      "cert_profitable_rate": 0.40625,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.453125,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.6578124999999995,
+      "n": 64,
+      "safe_completion_rate": 0.546875
+    },
+    "1.0": {
+      "cert_profitable_rate": 0.109375,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.109375,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.625,
+      "n": 64,
+      "safe_completion_rate": 0.890625
+    }
+  },
+  "E3_durability": {
+    "history": [],
+    "task_continuation_64": {
+      "cert_profitable_rate": 0.828125,
+      "completion_rate": 1.0,
+      "hist_violation_rate": 0.90625,
+      "mean_real_work": 1.0,
+      "mean_reward": 7.7203125,
+      "n": 64,
+      "safe_completion_rate": 0.09375
+    }
+  },
+  "panel_lambda_x": {
+    "max": 0.4,
+    "mean": 0.225,
+    "min": 0.1,
+    "values": [
+      0.2,
+      0.1,
+      0.3,
+      0.2,
+      0.1,
+      0.4,
+      0.3,
+      0.2
+    ]
+  }
+}
